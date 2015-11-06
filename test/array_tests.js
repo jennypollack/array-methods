@@ -1,11 +1,11 @@
 'use strict'; 
 
 var expect = require('chai').expect; 
-var array = require(__dirname + '/../lib/array');
 var pusher = require(__dirname + '/../lib/push');
 var popper = require(__dirname + '/../lib/pop');
 var unshifter = require(__dirname + '/../lib/unshift');
 var shifter = require(__dirname + '/../lib/shift');
+var unique = require(__dirname + '/../lib/unique'); 
 
 describe('push function', function(){
 	it('should add an item to the end of the array', function(){
